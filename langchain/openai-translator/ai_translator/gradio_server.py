@@ -44,7 +44,8 @@ def initialize_translator():
     config.initialize(args)    
     # 实例化 PDFTranslator 类，并调用 translate_pdf() 方法
     global Translator
-    Translator = PDFTranslator(config.model_name)
+    base_url = config.__getattr__('base_url')
+    Translator = PDFTranslator(config.model_name,base_url=base_url)
 
 
 if __name__ == "__main__":

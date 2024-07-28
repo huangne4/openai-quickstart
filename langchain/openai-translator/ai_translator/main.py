@@ -16,5 +16,7 @@ if __name__ == "__main__":
     config.initialize(args)    
 
     # 实例化 PDFTranslator 类，并调用 translate_pdf() 方法
-    translator = PDFTranslator(config.model_name)
-    translator.translate_pdf(config.input_file, config.output_file_format, pages=None)
+    base_url = config.__getattr__('base_url')
+    translator = PDFTranslator(config.model_name, base_url=base_url)
+    # translator.translate_pdf(config.input_file, config.output_file_format, source_language="English", target_language='Chinese', pages=None)
+    translator.translate_pdf(config.input_file, config.output_file_format, source_language="English", target_language='Korean', pages=None)
