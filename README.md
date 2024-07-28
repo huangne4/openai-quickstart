@@ -9,6 +9,16 @@
 
 ## 第一天作业：根据第二节课的pdf文件生成学习报告，并持续对报告进行改进。
 https://chatgpt.com/share/4bd889e3-6b4e-4359-910e-3469d6b2f9f7
+
+## 第二天作业
+https://github.com/huangne4/openai-quickstart/blob/main/openai_api/gpt-4v.ipynb
+https://github.com/huangne4/openai-quickstart/blob/main/openai-translator/ai_translator/main.py
+https://github.com/huangne4/openai-quickstart/blob/main/langchain/openai-translator/ai_translator/main.py
+https://github.com/huangne4/openai-quickstart/blob/main/langchain/jupyter/chains/router_chain.ipynb
+
+## 第三天作业
+https://github.com/huangne4/openai-quickstart/tree/main/langchain/car_sales_chatbot
+
 ## 贡献
 
 贡献是使开源社区成为学习、激励和创造的惊人之处。非常感谢你所做的任何贡献。如果你有任何建议或功能请求，请先开启一个议题讨论你想要改变的内容。
